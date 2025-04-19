@@ -1,0 +1,19 @@
+torch
+spaces
+gradio==4.44.1
+gradio-imageslider
+numpy==1.26.4
+transformers
+accelerate
+diffusers
+fastapi<0.113.0
+opencv-python
+safetensors
+matplotlib
+torchvision
+pydantic==2.10.6
+tqdm==4.67.1
+# Add xformers for memory-efficient attention (highly recommended for SDXL)
+# pip install xformers
+# Add flash-attention if compatible with your setup for further speedup
+# pip install flash-attention
